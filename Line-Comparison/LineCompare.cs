@@ -42,10 +42,23 @@ namespace Line_Comparison
                 Console.WriteLine("Both lines are equal.");
 
             }
+            if (Length1 == Length2)
+
+            {
+                Console.WriteLine("Both lines are equal.");
+
+            }
+            else if (Length1 > Length2)
+
+            {
+                Console.WriteLine("line 1 is greater.");
+
+            }
+
             else
 
             {
-                Console.WriteLine("Both lines are not equal.");
+                Console.WriteLine(" line 2 is smaller.");
 
             }
 
